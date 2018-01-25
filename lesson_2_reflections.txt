@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+You create an repository with no commits in it.  Initializing a repository doesn't create any commits because you wouldn't be able to add a message associated with the commit, and messages are extremely helpful!  You need to create a repository to give you the ability to push new commits to it.
+
+**************************************************************************
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area helps ensure you commit one logical change at a time to the repository.  Files committed to the repository are taken from the staging area, not the working directory.  Whatever file(s) you'd like committed should be added to the staging area.  This ensures that not all files from the working directory are committed to the repository.
+
+**************************************************************************
