@@ -31,3 +31,9 @@ You are able to get your local files up to date with the most recent version on 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 Email? That would be extremely annoying for the potential amount of changes to files.
+
+**************************************************************************
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Make changed to a branch when you don't want to interrupt the functionality of master.  Doing it this way can make things more complicated and more difficult to keep all of the files straight.
