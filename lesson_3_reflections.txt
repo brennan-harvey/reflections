@@ -21,3 +21,7 @@ Branch: When you have a functioning program but would like to "branch off" and t
 Clones:  When you'd like a snapshot of a repository for you to have and be able to work on with your own machine.
 
 **************************************************************************
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+You are able to get your local files up to date with the most recent version on the remote.
