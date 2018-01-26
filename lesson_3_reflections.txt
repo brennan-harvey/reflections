@@ -25,3 +25,9 @@ Clones:  When you'd like a snapshot of a repository for you to have and be able 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 You are able to get your local files up to date with the most recent version on the remote.
+
+**************************************************************************
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Email? That would be extremely annoying for the potential amount of changes to files.
