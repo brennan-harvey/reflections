@@ -9,3 +9,31 @@ How is the staging area different from the working directory and the repository?
 The staging area helps ensure you commit one logical change at a time to the repository.  Files committed to the repository are taken from the staging area, not the working directory.  Whatever file(s) you'd like committed should be added to the staging area.  This ensures that not all files from the working directory are committed to the repository.
 
 **************************************************************************
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Instead of committing all files from your working directory, you can use the staging area to ensure just the file(s) which contain one logical change are committed.
+
+**************************************************************************
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches will help if you have a working version of your program, but would like to "branch off" and try something different or more experimental.  You can commit to these branches without affecting the master branch in any way.  If these branches aren't successful, that's okay because the master branch should be a working version, and if your program is live it would not affect the end users of your program.
+
+**************************************************************************
+
+How do the diagrams help you visualize the branch structure?
+
+Getting a visual representation of the branch structure is super helpful in understanding the current state of your program, and in knowing what commits can be seen by others.  
+
+**************************************************************************
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches creates a single branch.  Representing this in a diagram helps to understand what commits came from what branch before the merge.
+
+**************************************************************************
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Git's auto merge detects conflicts and shows you exactly where the conflict arose within the text editor
