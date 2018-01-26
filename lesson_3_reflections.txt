@@ -1,0 +1,11 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+When working in groups or in the public.
+
+*****************************************************************************
+
+Why might you want to always pull changes manually rather than having Git automatically
+stay up-to-date with your remote repository?
+
+We want one commit per logical change, and we can ensure this if we do this manually.
+This may not be the case if Git automatically pulls for you.
